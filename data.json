@@ -1,0 +1,305 @@
+{
+  "Administration": [
+    {
+      "id": 1,
+      "name": "Santa Claus",
+      "title": "CEO",
+      "email": "santa.claus@northpole.com",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Miss Claus",
+      "title": "CFO",
+      "email": "miss.claus@northpole.com",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Jingle Elf",
+      "title": "Marketing Lead",
+      "email": "jingle.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    }
+  ],
+  
+  "Department Heads": [
+    {
+      "id": 4,
+      "name": "Tinsel Elf",
+      "title": "Head of Research and Development",
+      "email": "tinsel.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 5,
+      "name": "Frosty Elf",
+      "title": "Head of Quality Control",
+      "email": "frosty.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 6,
+      "name": "Snowflake Elf",
+      "title": "Head of Customer Support",
+      "email": "snowflake.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 7,
+      "name": "Twinkle Elf",
+      "title": "Head of Marketing",
+      "email": "twinkle.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    }
+  ],
+
+  "Marketing Team": [
+    {
+      "id": 8,
+      "name": "Holly Elf",
+      "title": "Marketing Strategist",
+      "email": "holly.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 9,
+      "name": "Peppermint Elf",
+      "title": "Digital Marketing Specialist",
+      "email": "peppermint.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 10,
+      "name": "Merry Elf",
+      "title": "Campaign Manager",
+      "email": "merry.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 11,
+      "name": "Ginger Elf",
+      "title": "Public Relations Manager",
+      "email": "ginger.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 12,
+      "name": "Sparkle Elf",
+      "title": "Event Coordinator",
+      "email": "sparkle.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    }
+  ],
+
+  "Research and Development": [
+    {
+      "id": 13,
+      "name": "Nutmeg Elf",
+      "title": "Lead Engineer",
+      "email": "nutmeg.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 14,
+      "name": "Candy Cane Elf",
+      "title": "Toy Designer",
+      "email": "candy.cane.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 15,
+      "name": "Snowstorm Elf",
+      "title": "Technology Specialist",
+      "email": "snowstorm.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 16,
+      "name": "Frost Elf",
+      "title": "Product Tester",
+      "email": "frost.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 17,
+      "name": "Jolly Elf",
+      "title": "Research Analyst",
+      "email": "jolly.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    }
+  ],
+
+  "Quality Control": [
+    {
+      "id": 18,
+      "name": "Icicle Elf",
+      "title": "Quality Control Manager",
+      "email": "icicle.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 19,
+      "name": "Blizzard Elf",
+      "title": "Quality Control Specialist",
+      "email": "blizzard.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 20,
+      "name": "Mistletoe Elf",
+      "title": "Product Inspector",
+      "email": "mistletoe.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 21,
+      "name": "Tinsel Elf Jr.",
+      "title": "Junior Quality Controller",
+      "email": "tinsel.jr.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 22,
+      "name": "Timmy",
+      "title": "Tester",
+      "email": "timmy@northpole.com",
+      "image": "./assets/images/timmy-portrait.png"
+    }
+  ],
+
+  "Customer Support": [
+    {
+      "id": 23,
+      "name": "Caramel Elf",
+      "title": "Customer Support Lead",
+      "email": "caramel.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 24,
+      "name": "Snowy Elf",
+      "title": "Support Specialist",
+      "email": "snowy.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 25,
+      "name": "Gingerbread Elf",
+      "title": "Help Desk Elf",
+      "email": "gingerbread.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 26,
+      "name": "Cinnamon Elf",
+      "title": "Customer Relations Manager",
+      "email": "cinnamon.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 27,
+      "name": "Peppermint Twist Elf",
+      "title": "Ticketing Specialist",
+      "email": "peppermint.twist.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    }
+  ],
+
+  "Interns": [
+    {
+      "id": 28,
+      "name": "Jingleberry Elf",
+      "title": "Intern – Marketing",
+      "email": "jingleberry.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 29,
+      "name": "Winter Elf",
+      "title": "Intern – Quality Control",
+      "email": "winter.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 30,
+      "name": "Icicle Spark Elf",
+      "title": "Intern – Research and Development",
+      "email": "iciclespark.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 31,
+      "name": "Candy Elf",
+      "title": "Intern – Customer Support",
+      "email": "candy.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    },
+    {
+      "id": 32,
+      "name": "Snowflake Sparkle Elf",
+      "title": "Intern – Administration",
+      "email": "snowflakesparkle.elf@northpole.com",
+      "image": "./assets/images/elf-portrait.png"
+    }
+  ],
+
+  "Drivers": [
+    {
+      "id": 33,
+      "name": "Dasher",
+      "title": "Lead Reindeer",
+      "email": "dasher@northpole.com",
+      "image": 
+    },
+    {
+      "id": 34,
+      "name": "Dancer",
+      "title": "Reindeer",
+      "email": "dancer@northpole.com",
+      "image": ""
+    },
+    {
+      "id": 35,
+      "name": "Prancer",
+      "title": "Reindeer",
+      "email": "prancer@northpole.com",
+      "image": ""
+    },
+    {
+      "id": 36,
+      "name": "Vixen",
+      "title": "Reindeer",
+      "email": "vixen@northpole.com",
+      "image": ""
+    },
+    {
+      "id": 37,
+      "name": "Comet",
+      "title": "Reindeer",
+      "email": "comet@northpole.com",
+      "image": ""
+    },
+    {
+      "id": 38,
+      "name": "Cupid",
+      "title": "Reindeer",
+      "email": "cupid@northpole.com",
+      "image": ""
+    },
+    {
+      "id": 39,
+      "name": "Donner",
+      "title": "Reindeer",
+      "email": "donner@northpole.com",
+      "image": ""
+    },
+    {
+      "id": 40,
+      "name": "Blitzen",
+      "title": "Reindeer",
+      "email": "blitzen@northpole.com",
+      "image": ""
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+/* Imported */
+
+/* Open Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Imported */
+
+
+
+/* Fonts */
+.open-sans-regular {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.open-sans-thin {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.open-sans-semi-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+/* /Fonts */
+
+
+
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* /Universal Selector */
+
+
+
+/* Global HTML and Body Style */
+html, body {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+/* /Global HTML and Body Style */
+
+
+
+/* Global Width Style */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+/* /Global Width Style */
+
+
+
+/* Global Header Style */
+header {
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0, 85%);
+}
+/* /Global Header Style */
+
+/* Global Body Style */
+body {
+    position: absolute;
+}
+/* /Global Bdoy Style */
+
+/* Navbar */
+.navbar {
+    max-width: 1728px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbar-list {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbar-list .navbar-list-item {
+    list-style: none;
+}
+
+.navbar-list-item a {
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.navbar-list-item a:hover {
+    background-color: darkred;
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+
+/* /Navbar */
+
+
+
+/* Main Section Styles */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* /Main Section Styles */
+
+
+
+/* Global Section Style */
+.section {
+    max-width: 1728px;
+    width: 100%;
+    height: 100%;
+
+    padding: 2rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+/* /Global Section Style */
+
+
+
+/* Hero Section Style */
+.hero-section {
+    height: 95vh;
+    max-width: 100vw;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: url("https://w.wallhaven.cc/full/01/wallhaven-01rv1g.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-button {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: none;
+
+    background-color: darkred;
+    color: white;
+
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.hero-button:hover {
+    background-color: green;
+    transition: all ease-in 0.2s;
+}
+/* /Hero Section Style */
+
+
+/* Wishlist Section Style */
+
+.wishlist-section {
+    
+}
+
+/* /Wishlist Section Style */
+
+
+/* About Section Style */
+.about-section {
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text-container {
+    padding: 5rem;
+    height: 100%;
+    width: 100%;
+}
+
+.about-text-container.left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.about-text-container.right {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.about-image-container {
+    height: 100%;
+    width: 100%;
+}
+
+.about-image-container.right{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.about-image-container.left {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.about-image img {
+    max-height: 500px;
+    height: 100%;
+}
+/* /About Section Style */
+
+/* Employee Section Style */
+.employees-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.employees {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.employees-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Employee Card Style */
+.employee-card {
+    width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.employee-figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.employee-info {
+    margin-top: 1rem;
+}
+
+.employee-name {
+    font-weight: bold;
+}
+
+.employee-title {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.employee-email {
+    color: #555;
+    font-size: 0.9rem;
+}
+/* /Employee Section Style */
+
+
+/* Footer Style */
+.footer {
+    height: 25px;
+}
+/* /Footer Style */
+
+
+/* Styling for employee cards */
+
