@@ -66,11 +66,13 @@ function displayEmployees(department, employees) {
 
 
 // Updates price range value when slider is dragged 
-const slider = document.getElementById("gift-price")
-const output = document.getElementById("price-value")
+const slider = document.getElementById("gift-description-price-range")
+const output = document.getElementById("price-range-value")
 
-output.innerHTML = slider.value;
+output.innerHTML = "$" + slider.value;
 
 slider.oninput = function() {
-    output.innerHTML = this.value;
+    output.innerHTML = "$" + this.value;
 }
+
+document.getElementById("audioplayer").volume = 0.2; 

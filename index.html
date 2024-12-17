@@ -44,6 +44,8 @@
 
     </header>
 
+    <audio src="./assets/audio/Britney Spears - My Only Wish (This Year) (Official Audio).mp3" type="audio/mp3" autoplay controls loop class="audioplayer" id="audioplayer"></audio>
+
     <main class="main-content">
         
         <section class="hero-section" id="hero-section">
@@ -59,117 +61,120 @@
             <div class="wishlist-container">
                 <h1 class="wishlist-title pinyon-script-regular">North Pole Wish List</h1>
                 <h3 class="wishlist-subtitle pinyon-script-regular">Make Your Holiday Dreams Come True – Straight from Santa’s Desk!</h3>
-                <div class="form-contact-info">
-                    <form class="form-contact container-one">
-                        <label for="first-name">First name:</label><br>
-                        <input type="text" name="first-name" class="input-type-text" id="wishlist-input-first-name" required><br>
-                        <label for="last-name">Last name:</label><br>
-                        <input type="text" name="last-name" class="input-type-text" id="wishlist-input-last-name" required><br>
-                        <label for="contact-number">Phone number:</label><br>
-                        <input type="text" name="contact-number" class="input-type-text" id="wishlist-input-contact-number"><br>
-                    </form>
-                    <form class="form-contact container-two">
-                        <label for="street-address">Street address:</label><br>
-                        <input type="text" name="street-address" class="input-type-text" id="wishlist-input-street-address"><br>
-                        <label for="zip-code">Zip code</label><br>
-                        <input type="text" name="zip-code" class="input-type-text" id="wishlist-input-zip-code"><br>
-                        <label for="contact-email">Email:</label><br>
-                        <input type="email" name="contact-email" class="input-type-text" id="wishlist-input-contact-email" required><br>
-                    </form>
-                </div>
-                <div class="gift-categories">
-                    <form class="gift-categories-form form-one">
-                        <input type="checkbox" name="gift-category-tech" id="gift-category-tech">
-                        <label for="gift-category-tech">Tech and Gadgets</label>
                 
-                        <input type="checkbox" name="gift-category-media" id="gift-category-media">
-                        <label for="gift-category-media">Books & Media</label>
-                        
-                        <input type="checkbox" name="gift-category-clothing" id="gift-category-clothing">
-                        <label for="gift-category-clothing">Clothing & Accessories</label>
+                <form class="wishlist-form open-sans-thin" id="wishlist-form">
+                    <fieldset class="fieldset personal-information">
+                        <legend class="pinyon-script-regular">Personal Information</legend>
 
+                        <label for="first-name" class="wishlist-label">First name:</label>
+                        <input type="text" name="first-name" class="wishlist-input" id="personal-information-first-name" required>
+
+                        <label for="last-name" class="wishlist-label">Last name:</label><br>
+                        <input type="text" name="last-name" class="wishlist-input" id="personal-information-last-name" required>
+
+                        <label for="contact-number" class="wishlist-label">Phone number:</label>
+                        <input type="text" name="contact-number" class="wishlist-input" id="personal-information-contact-number">
+
+                        <label for="street-address" class="wishlist-label">Street Address:</label>
+                        <input type="text" name="street-address" class="wishlist-input" id="personal-information-street-address" required>
+
+                        <label for="zip-code" class="wishlist-label">Zip Code:</label>
+                        <input type="text" name="zip-code" class="wishlist-input" id="personal-information-zip-code" required>
+
+                        <label for="contact-email" class="wishlist-label">Email:</label>
+                        <input type="text" name="contact-email" class="wishlist-input" id="personal-information-contact-email">
+
+                    </fieldset>
+
+                    <fieldset class="fieldset gift-categories">
+                        <legend class="pinyon-script-regular">Gift Categories</legend>
+
+                        <input type="checkbox" name="gift-category-tech" id="gift-category-tech">
+                        <label for="gift-category-tech" class="wishlist-label">Tech and Gadgets</label>
+
+                        <input type="checkbox" name="gift-category-media" id="gift-category-media">
+                        <label for="gift-category-media" class="wishlist-label">Books & Media</label>
+
+                        <input type="checkbox" name="gift-category-clothing" id="gift-category-clothing">
+                        <label for="gift-category-clothing" class="wishlist-label">Clothing & Accessories</label>
+                        
                         <input type="checkbox" name="gift-category-home" id="gift-category-home">
-                        <label for="gift-category-home">Home & Kitchen Items</label>
+                        <label for="gift-category-home" class="wishlist-label">Home & Kitchen items</label>
 
                         <input type="checkbox" name="gift-category-toys" id="gift-category-toys">
-                        <label for="gift-category-toys">Toys & Games</label><br>
+                        <label for="gift-category-toys" class="wishlist-label">Toys & Games</label>
 
                         <input type="checkbox" name="gift-category-selfcare" id="gift-category-selfcare">
-                        <label for="gift-category-selfcare">Beauty & Self-Care</label>
-
+                        <label for="gift-category-selfcare" class="wishlist-label">Beauty & Self-Care</label>
+                        
                         <input type="checkbox" name="gift-category-sports" id="gift-category-sports">
-                        <label for="gift-category-sports">Sports & Fitness</label>
+                        <label for="gift-category-sports" class="wishlist-label">Sports & Fitness</label>
 
                         <input type="checkbox" name="gift-category-food" id="gift-category-food">
-                        <label for="gift-category-food">Food & Drink</label>
+                        <label for="gift-category-food" class="wishlist-label">Food & Drink</label>
 
                         <input type="checkbox" name="gift-category-experiences" id="gift-category-experiences">
-                        <label for="gift-category-experiences">Experiences</label>
+                        <label for="gift-category-experiences" class="wishlist-label">Experiences</label>
 
                         <input type="checkbox" name="gift-category-charitable-donations" id="gift-category-charitable-donations">
-                        <label for="gift-category-charitable-donations">Charitable Donations</label>
-                    </form>
-                </div>
-                <div class="gift-description">
-                    <div class="gift-description-container">
-                        <form class="gift-description-form form-one">
-                            <label for="gift-description">Gift Name/Description:</label><br>
-                            <input type="text" name="gift-description" class="input-type-text" id="gift-description"><br>
-                            <label for="gift-brand">Brand/Model:</label><br>
-                            <input type="text" name="gift-brand" class="input-type-text" id="gift-brand"><br>
-                            <label for="gift-link">Link to Item:</label><br>
-                            <input type="url" name="gift-link" class="input-type-text" id="gift-link"><br>
-                        </form>
-                        <form class="gift-description-form form-two">
-                            <label for="gift-quantity">Quantity:</label><br>
-                            <input type="number" name="gift-quantity" class="input-type-text" id="gift-quantity"><br>
-                            <label for="gift-color-style">Preferred Color/Size/Style:</label><br>
-                            <input type="text" name="gift-color-style" class="input-type-text" id="gift-color-style"><br>
-                        </form>
-                    </div>
-                    <div class="gift-description-price-range">
-                        <form class="gift-description-form form-three">
-                            <label for="gift-price">Price Range: $<span id="price-value"></span></label><br>
-                            <input type="range" min="1" max="1000" value="500" name="gift-price" class="gift-price-range" id="gift-price"><br>
-                        </form>
-                    </div>
-                </div>
-                <div class="gift-preferences">
-                    <form class="gift-preferences-form form-one">
-                        <label for="">Would you prefer to be surprised?</label><br>
-                        <input type="radio" name="gift-surprise" id="gift-surprise">
-                        <label for="gift-surprise">Yes</label>
-                        <input type="radio" name="gift-surprise" id="gift-surprise">
-                        <label for="gift-surprise">No</label><br>
-                        <label for="">Gift wrapping preference:</label><br>
-                        <input type="radio" name="gift-wrapping" id="gift-wrapping-yes">
-                        <label for="gift-wrapping">Yes</label>
-                        <input type="radio" name="gift-wrapping" id="gift-wrapping-no">
-                        <label for="gift-wrapping">No</label><br>
-                    </form>
-                    <form class="gift-preferences-form form-two">
-                        <label for="">Do you have any allergies or preference?</label><br>
-                        <input type="checkbox" name="gift-allergies-food" id="gift-allergies-food">
-                        <label for="gift-allergies-food">Food Allergies</label><br>
-                        <input type="checkbox" name="gift-allergies-fragrances" id="gift-allergies-fragrances">
-                        <label for="gift-allergies-fragrances">Fragrance Allergies</label><br>
-                        <input type="checkbox" name="gift-allerigies-materials" id="gift-allerigies-materials">
-                        <label for="gift-allerigies-materials">Material Allergies</label><br>
-                        <label for="gift-allergies-text-input" class="gift-allergies-text-input">If yes, please write which allergies:</label><br>
-                        <input type="text" name="gift-allergies-text-input" class="input-type-text" id="gift-allergies-text-input">
-                    </form>
-                </div>
-            </div>
-            <div class="gift-links-container">
-                <form>
-                    <label for="gift-links">Add a link to a gift you would like:</label>
-                    <input type="url" name="gift-links" class="gift-links input-type-text" id="gift-links-1">
-<!--                     <button class="gift-links-add-more-button" id="gift-links-add-more-button">
-                        Add more
-                    </button> -->
+                        <label for="gift-category-charitable-donations" class="wishlist-label">Charitable Donations</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend class="pinyon-script-regular">Gift Description</legend>
+
+                        <label class="wishlist-label" for="gift-name">Gift Name/Description:</label>
+                        <input type="text" name="gift-name" id="gift-description-gift-name">
+
+                        <label class="wishlist-label" for="gift-brand">Brand/Model:</label>
+                        <input type="text" name="gift-brand" id="gift-description-gift-brand">
+
+                        <label class="wishlist-label" for="gift-link">Link to item you wish for:</label>
+                        <input type="text" name="gift-link" id="gift-description-gift-link">
+
+                        <label class="wishlist-label" for="gift-quantity">How many you would like:</label>
+                        <input type="text" name="gift-quantity" id="gift-description-gift-quantity">
+
+                        <label class="wishlist-label" for="gift-style">Preffered Color/Size/Style:</label>
+                        <input type="text" name="gift-style" id="gift-description-gift-style">
+
+                        <label class="wishlist-label" for="gift-price">Price Range: <span id="price-range-value" class="wishlist-label"></span></label><br>
+                        <input type="range" min="1" max="1000" value="500" name="gift-price" class="gift-price-range" id="gift-description-price-range">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend class="pinyon-script-regular">Gift Preferences</legend>
+
+                        <label class="wishlist-label" for="">Would you prefer to be surprised?</label><br>
+                        <input type="radio" name="gift-surprise" id="gift-preferences-gift-surprise">
+                        <label class="wishlist-label" for="gift-surprise">Yes</label>
+                        <input type="radio" name="gift-surprise" id="gift-preferences-gift-surprise">
+                        <label class="wishlist-label" for="gift-surprise">No</label><br>
+
+                        <label class="wishlist-label" for="">Do you have any allergies?</label><br>
+                        <input type="checkbox" name="gift-allergies-food" id="gift-prefences-allergies-food">
+                        <label class="wishlist-label" for="gift-preferences-allergies-food">Food Allergies</label>
+                        
+                        <input type="checkbox" name="gift-allergies-fragrances" id="gift-preferences-allergies-fragrances">
+                        <label class="wishlist-label" for="gift-allergies-fragrances">Fragrance Allergies</label>
+                        
+                        <input type="checkbox" name="gift-allerigies-materials" id="gift-preferences-allerigies-materials">
+                        <label class="wishlist-label" for="gift-allerigies-materials">Material Allergies</label><br>
+                        
+                        <label class="wishlist-label" for="gift-allergies-text-input" class="gift-allergies-text-input">If yes, please write which allergies:</label><br>
+                        <input type="text" name="gift-allergies-text-input" id="gift-preferences-allergies-text-input">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend class="pinyon-script-regular">Additional Present Links</legend>
+
+                        <label for="gift-links">Have more presents you wish for, link them here:</label>
+                        <input type="url" name="gift-links" id="gift-link-1">
+
+                        <input type="submit" value="Send Your Wishlist!" class="button wishlist-button" id="wishlist-submit-button">
+
+                    </fieldset>
                 </form>
-            </div>
-            <button class="wishlist-submit-button" id="wishlist-submit-button">Submit</button>
         </section>
         <section class="section about-section" id="about-section">
             <div class="about-text-container left">
