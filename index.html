@@ -54,12 +54,82 @@
             <h3 class="hero-subtitle"></h3>
             <a href="">
                 <button class="hero-button">
-                    EXPLORE
+                    Make Your Christmas Wish
                 </button>
             </a>
         </section>
         <section class="section wishlist-section">
+            <div class="form-contact-info">
+                <form>
+                    <label for="first-name">First name:</label><br>
+                    <input type="text" name="first-name" id="wishlist-input-first-name"><br>
+                    <label for="last-name">Last name:</label><br>
+                    <input type="text" name="last-name" id="wishlist-input-last-name"><br>
+                    <label for="contact-number">Phone number:</label><br>
+                    <input type="text" name="contact-number" id="wishlist-input-contact-number"><br>
+                </form>
+                <form>
+                    <label for="street-address">Street address:</label><br>
+                    <input type="text" name="street-address" id="wishlist-input-street-address"><br>
+                    <label for="zip-code">Zip code</label><br>
+                    <input type="text" name="zip-code" id="wishlist-input-zip-code"><br>
+                    <label for="contact-email">Email:</label><br>
+                    <input type="email" name="contact-email" id="wishlist-input-contact-email"><br>
+                </form>
+            </div>
+            <form>
+                <input type="checkbox" name="gift-category-tech" id="gift-category-tech">
+                <label for="gift-category-tech">Tech and Gadgets</label>
+                
+                <input type="checkbox" name="gift-category-media" id="gift-category-media">
+                <label for="gift-category-media">Books & Media</label>
 
+                <input type="checkbox" name="gift-category-clothing" id="gift-category-clothing">
+                <label for="gift-category-clothing">Clothing & Accessories</label>
+
+                <input type="checkbox" name="gift-category-home" id="gift-category-home">
+                <label for="gift-category-home">Home & Kitchen Items</label>
+
+                <input type="checkbox" name="gift-category-toys" id="gift-category-toys">
+                <label for="gift-category-toys">Toys & Games</label><br>
+
+                <input type="checkbox" name="gift-category-selfcare" id="gift-category-selfcare">
+                <label for="gift-category-selfcare">Beauty & Self-Care</label>
+
+                <input type="checkbox" name="gift-category-sports" id="gift-category-sports">
+                <label for="gift-category-sports">Sports & Fitness</label>
+
+                <input type="checkbox" name="gift-category-food" id="gift-category-food">
+                <label for="gift-category-food">Food & Drink</label>
+
+                <input type="checkbox" name="gift-category-experiences" id="gift-category-experiences">
+                <label for="gift-category-experiences">Experiences</label>
+
+                <input type="checkbox" name="gift-category-charitable-donations" id="gift-category-charitable-donations">
+                <label for="gift-category-charitable-donations">Charitable Donations</label>
+            </form>
+            <form>
+                <label for="gift-description">Gift Name/Description:</label><br>
+                <input type="text" name="gift-description" id="gift-description"><br>
+
+                <label for="gift-brand">Brand/Model:</label><br>
+                <input type="text" name="gift-brand" id="gift-brand"><br>
+
+                <label for="gift-link">Link to Item:</label><br>
+                <input type="url" name="gift-link" id="gift-link"><br>
+            </form>
+            <form>
+                <label for="gift-quantity">Quantity:</label><br>
+                <input type="number" name="gift-quantity" id="gift-quantity"><br>
+
+                <label for="gift-color-style">Preferred Color/Size/Style:</label><br>
+                <input type="text" name="gift-color-style" id="gift-color-style"><br>
+            </form>
+            <form>
+                <label for="gift-price">Price Range: $<span id="price-value"></span></label><br>
+                <input type="range" min="1" max="1000" value="500" name="gift-price" id="gift-price"><br>
+                
+            </form>
         </section>
         <section class="section about-section">
             <div class="about-text-container left">

@@ -63,3 +63,14 @@ function displayEmployees(department, employees) {
         console.warn(`Section for department '${department}' not found.`);
     }
 }
+
+
+// Updates price range value when slider is dragged 
+const slider = document.getElementById("gift-price")
+const output = document.getElementById("price-value")
+
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+    output.innerHTML = this.value;
+}

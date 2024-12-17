@@ -5,14 +5,14 @@
       "name": "Santa Claus",
       "title": "CEO",
       "email": "santa.claus@northpole.com",
-      "image": ""
+      "image": "./assets/images/santa-portrait.jpg"
     },
     {
       "id": 2,
       "name": "Miss Claus",
       "title": "CFO",
       "email": "miss.claus@northpole.com",
-      "image": ""
+      "image": "./assets/images/missclause-portrait.jpg"
     },
     {
       "id": 3,
@@ -67,7 +67,7 @@
       "name": "Peppermint Elf",
       "title": "Digital Marketing Specialist",
       "email": "peppermint.elf@northpole.com",
-      "image": "./assets/images/elf-portrait.png"
+      "image": ""
     },
     {
       "id": 10,
@@ -112,7 +112,7 @@
       "name": "Snowstorm Elf",
       "title": "Technology Specialist",
       "email": "snowstorm.elf@northpole.com",
-      "image": "./assets/images/elf-portrait.png"
+      "image": ""
     },
     {
       "id": 16,
@@ -143,7 +143,7 @@
       "name": "Blizzard Elf",
       "title": "Quality Control Specialist",
       "email": "blizzard.elf@northpole.com",
-      "image": "./assets/images/elf-portrait.png"
+      "image": ""
     },
     {
       "id": 20,
@@ -195,7 +195,7 @@
       "name": "Cinnamon Elf",
       "title": "Customer Relations Manager",
       "email": "cinnamon.elf@northpole.com",
-      "image": "./assets/images/elf-portrait.png"
+      "image": ""
     },
     {
       "id": 27,
@@ -250,28 +250,28 @@
       "name": "Dasher",
       "title": "Lead Reindeer",
       "email": "dasher@northpole.com",
-      "image": 
+      "image": "./assets/images/reindeer.jpg"
     },
     {
       "id": 34,
       "name": "Dancer",
       "title": "Reindeer",
       "email": "dancer@northpole.com",
-      "image": ""
+      "image": "./assets/images/reindeer.jpg"
     },
     {
       "id": 35,
       "name": "Prancer",
       "title": "Reindeer",
       "email": "prancer@northpole.com",
-      "image": ""
+      "image": "./assets/images/reindeer.jpg"
     },
     {
       "id": 36,
       "name": "Vixen",
       "title": "Reindeer",
       "email": "vixen@northpole.com",
-      "image": ""
+      "image": "./assets/images/reindeer.jpg"
     },
     {
       "id": 37,
@@ -285,14 +285,14 @@
       "name": "Cupid",
       "title": "Reindeer",
       "email": "cupid@northpole.com",
-      "image": ""
+      "image": "./assets/images/reindeer.jpg"
     },
     {
       "id": 39,
       "name": "Donner",
       "title": "Reindeer",
       "email": "donner@northpole.com",
-      "image": ""
+      "image": "./assets/images/reindeer.jpg"
     },
     {
       "id": 40,
